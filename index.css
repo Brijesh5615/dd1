@@ -1,0 +1,455 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+/* section {
+  max-height: 80%;
+  overflow: hidden;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  
+} */
+
+h1 {
+  padding: 100px;
+  padding-top: 300px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  word-spacing: 3px;
+}
+h1::before {
+  content: "|";
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h4 {
+  padding-bottom: 10px;
+}
+p {
+  opacity: 0.5;
+}
+ul li {
+  opacity: 0.5;
+}
+/* =================navbar=========== */
+
+.container {
+  max-height: 80%;
+  overflow: hidden;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+nav {
+  display: flex;
+  height: 120px;
+  width: 100%;
+  background-color: whitesmoke;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+}
+nav .logo {
+  margin: auto;
+}
+nav .logo span {
+  flex-basis: 30%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav .menu {
+  flex-basis: 70%;
+  text-align: right;
+  padding-right: 30px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+a:hover {
+  text-decoration: underline 2px;
+}
+nav .internet img {
+  max-width: 100px;
+  /* max-height: 80px; */
+}
+
+nav .menu_name img {
+  text-align: right;
+  max-width: 30px;
+}
+
+/* =====================HOME========================= */
+.home {
+  height: 70vh;
+  width: 100%;
+  background-image: url("../image/home.jpg");
+  background-size: cover;
+  box-shadow: inset 0px 0px 600px 60px rgb(63, 63, 63);
+}
+
+/* =========weare================ */
+.weare {
+ 
+
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.underline{
+  text-align: center;
+  padding-left: 35%;
+  padding-right: 35%;
+  
+}
+.underline .line{
+  text-align: center;
+  background-color: red;
+  height: 4px;
+  width: 100%;
+  
+  
+}
+.weare .box_m {
+  
+  /* border: 2px solid red; */
+  margin-top: 30px;
+  text-align: center;
+ 
+ 
+
+
+}
+
+.box {
+  display: inline-block;
+  max-width: 438px;
+
+ /* border: 2px solid tan ; */
+ margin-block: 20px;
+ 
+ 
+}
+.box_m .box .image{
+  text-align: center;
+}
+.box_m .box .image img {
+  max-height: 270px;
+
+
+}
+
+.box_m .box .discription {
+  text-align: center;
+  margin: 30px;
+}
+
+/* ================================service============= */
+
+.service {
+ 
+
+  background-image: url("../image/our_service.jpg");
+  background-size: cover;
+  text-align: center;
+  box-shadow: inset 0px 0px 900px 300px #111010;
+  /* opacity: 0.2; */
+  padding: 50px;
+  height: 80vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.box_s {
+  margin-top: 10px;
+  /* margin-left: 15%;
+  margin-right: 15%; */
+}
+.service .box_s .boxs .images img {
+  max-height: 110px;
+
+  /* height: 70px;
+  width: 100px; */
+}
+.boxs {
+  margin-inline: 100px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+
+  width: 15%;
+  height: 250px;
+  display: inline-block;
+  border: #9e363f 4px solid;
+  border-radius: 10px;
+
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  line-height: 60px;
+  overflow: hidden;
+}
+
+.boxs:hover {
+  box-shadow: inset 0px 0px 300px 10px rgb(49, 47, 46);
+  color: #9e363f;
+
+  overflow: hidden;
+}
+.service .box_s .boxs .discription_s{
+  /* line-height: 60px; */
+}
+
+/* =================why choose us========== */
+
+.row {
+  display: flex;
+
+ 
+  font-size: 20px;
+  /* border: 2px solid red;  */
+}
+
+.row .left_row {
+  flex-basis: 50%;
+  padding-top: 10px;
+}
+.row .left_row .H2 {
+  color: black;
+  font-size: 25px;
+  text-align: left;
+}
+.row .left_row ul li {
+  
+  margin-top: 10px;
+  list-style-type: none;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.row .left_row ul li::before {
+  content: "(@)";
+  color: rgb(68, 22, 22);
+  font-weight: bold;
+  
+}
+
+.row .left_row button {
+  background-color: rgb(102, 38, 38);
+  height: 60px;
+  width: 250px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+
+.row .right_row {
+  flex-basis: 50%;
+  text-align: right;
+}
+.row .right_row .why {
+  max-height: 500px;
+}
+
+/* ===================contactus====== */
+.contact {
+  background-color: #211f1e;
+  color: #7f7f7f;
+  font-family: "Ubuntu", sans-serif;
+}
+.carea {
+  display: flex;
+  padding: 50px;
+
+}
+
+.contact .part1 {
+  flex-basis: 33%;
+  /* padding: 20px; */
+  font-size: 20px;
+}
+.contact .part2 {
+  flex-basis: 38%;
+  /* padding: 30px; */
+}
+.contact .part2_div {
+  padding: 10px;
+  display: flex;
+}
+.contact .part2_div .p2_left {
+  flex-basis: 50%;
+}
+.contact .part2_div .p2_left ul li {
+  list-style-type: none;
+  padding-top: 15px;
+}
+.contact .part2_div .p2_left ul li::before {
+  content: ">";
+  color: rgb(102, 6, 6);
+}
+.contact .part2_div .p2_right {
+  flex-basis: 50%;
+}
+.contact .part2_div .p2_right ul li {
+  list-style-type: none;
+  padding-top: 15px;
+}
+.contact .part2_div .p2_right ul li::before {
+  content: ">";
+  color: rgb(102, 6, 6);
+}
+.contact .part3 {
+  flex-basis: 28%;
+
+  font-size: 15px;
+  /* padding: 30px; */
+}
+.contact .part3 ul li {
+  text-align: left;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.contact .part3 ul li::before {
+  content: "#";
+  color: rgb(102, 6, 6);
+}
+.contact h3 {
+  color: white;
+}
+
+.contact .part2_div ul li:hover {
+  color: white;
+  text-decoration: underline 1px rgb(102, 6, 6);
+}
+footer {
+ 
+  text-align: right;
+  color: #7f7f7f;
+  height: 60px;
+  background-color: #191816;
+  border-top: 2px solid #191816;
+}
+
+/* =================make responsive======================== */
+
+@media screen and (max-width: 360px) {
+  * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  nav {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(218, 84, 84);
+  }
+
+  nav .logo {
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+  }
+  nav .logo img {
+    height: 20px;
+    width: 20px;
+  }
+
+  nav .menu .menu_name a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: rgb(49, 47, 46);
+    width: 100%;
+  }
+  nav .menu .internet img {
+    display: none;
+  }
+  nav .menu .menu_name img {
+    display: none;
+  }
+
+  h1 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+  h1::before {
+    content: "|";
+    color: red;
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  h2:hover {
+    text-decoration: underline 1px red;
+  }
+  h4 {
+    padding-bottom: 10px;
+  }
+  .home {
+    height: 50vh;
+    width: 100%;
+    background-image: url("../image/home.jpg");
+    background-size: cover;
+    box-shadow: inset 0px 0px 600px 60px rgb(63, 63, 63);
+  }
+  .weare {
+    font-size: 10px;
+  }
+  .weare h2 {
+    font-size: 15px;
+  }
+  .weare p {
+    font-size: 10px;
+  }
+  .weare .box_m {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    margin: auto;
+    font-size: 10px;
+  }
+  .weare .box_m .box .image {
+    max-height: 20px;
+  }
+  .service .box_s {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    margin: auto;
+    font-size: 10px;
+  }
+}
